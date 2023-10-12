@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c7ecee;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 30px;
+    padding: 24px;
+}
+
+.sticky{
+    height: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.btnAdd{
+    height: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 32px;
+    cursor: pointer;
+    background-color: #7ed6df;
+}
+
+.btnAdd:hover{
+    background-color: #686de0;
+    border-radius: 20%;
+}
